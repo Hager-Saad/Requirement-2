@@ -1,0 +1,19 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Fill The Form </Form></h1>
+    <!--Form to collect name and email-->
+    <form action="/Submit" method="POST">
+    <!--input field for name-->
+    <label>Name</label><br>
+    <input type="text" id="Age" name="Name" placeholder="Please Enter Your Name"><br><br>
+    <!--input field for Age-->
+    <label>Age</label><br>
+    <input type="number" id="Age" name="Age" placeholder="Please Enter Your Age"><br><br>
+     <!--submit button to send the form data-->
+     <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
